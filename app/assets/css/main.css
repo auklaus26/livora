@@ -524,6 +524,10 @@ legend {
   color: #653b85;
 }
 
+.site-footer .footer-links-title {
+  color: var(--brand-strong);
+}
+
 .site-footer .muted-copy {
   color: #282828;
 }
@@ -538,21 +542,45 @@ legend {
 }
 
 .acknowledgement-card {
-  margin-top: 2rem;
+  margin-top: 1rem;
   background: linear-gradient(135deg, var(--purple-deep), var(--purple));
+  padding: 1rem 1.25rem;
+  border-radius: 20px;
+}
+
+.acknowledgement-flags {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.2rem;
+}
+
+.acknowledgement-flag {
+  display: block;
+  width: 48px;
+  height: auto;
+  object-fit: cover;
 }
 
 .acknowledgement-card p {
   color: #ffffff;
+  margin: 0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.acknowledgement-card p + p {
+  margin-top: 0.5rem;
 }
 
 .footer-bottom {
   flex-wrap: wrap;
   border-top: 1px solid var(--line);
-  margin-top: 2rem;
-  padding-top: 1.5rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
   font-family: var(--font-inter);
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   justify-content: center;
 }
 

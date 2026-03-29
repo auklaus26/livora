@@ -21,14 +21,14 @@ import {
       </div>
 
       <div>
-        <h3>Helpful links</h3>
+        <h3 class="footer-links-title">Helpful links</h3>
         <div class="footer-links">
           <NuxtLink v-for="item in footerLinks" :key="item.to" :to="item.to">{{ item.label }}</NuxtLink>
         </div>
       </div>
 
       <div>
-        <h3>Contact</h3>
+        <h3 class="footer-links-title">Contact</h3>
         <p>{{ sitePhone }}</p>
         <p>{{ siteEmail }}</p>
         <p>{{ siteLocation }}</p>
@@ -36,6 +36,14 @@ import {
     </div>
 
     <div class="shell acknowledgement-card">
+      <div class="acknowledgement-flags" aria-label="Aboriginal and Torres Strait Islander flags">
+        <img src="/aboriginalflag.jpg" alt="Aboriginal flag" class="acknowledgement-flag" />
+        <img
+          src="/torresstraightislanderflag.jpg"
+          alt="Torres Strait Islander flag"
+          class="acknowledgement-flag"
+        />
+      </div>
       <p v-for="statement in acknowledgementStatements" :key="statement">
         {{ statement }}
       </p>
