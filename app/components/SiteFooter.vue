@@ -42,12 +42,7 @@ import {
     </div>
 
     <div class="shell footer-bottom">
-      <p>NDIS Registered Provider</p>
-      <p>Melbourne Service Area</p>
-      <p>Participant Rights</p>
-      <p>Complaints & Feedback</p>
-      <p>Privacy Policy</p>
-      <p>Social links can be added once final accounts are confirmed.</p>
+      <p>&copy; 2026 Livora Care. Registered NDIS Provider. Serving Greater Melbourne.</p>
     </div>
   </footer>
 </template>
