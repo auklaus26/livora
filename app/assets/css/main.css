@@ -8,7 +8,7 @@
   --text-soft: #145069;
   --line: rgba(20, 80, 105, 0.14);
   --brand: #653b85;
-  --brand-strong: #145069;
+  --brand-strong: #097fb1;
   --accent: #05b06a;
   --accent-soft: #7ae0b6;
   --lavender: #e1c4f8;
@@ -141,7 +141,7 @@ textarea {
 .nav-link {
   padding: 0.35rem 0;
   font-family: var(--font-inter);
-  color: var(--text-soft);
+  color: #000000;
   border-bottom: 2px solid transparent;
 }
 
@@ -495,6 +495,9 @@ legend {
 .page-hero-panel .text-link {
   color: #ffffff;
 }
+.form-card .button {
+  margin-top: 1rem;
+}
 
 .cta-strip {
   justify-content: space-between;
@@ -528,6 +531,10 @@ legend {
 .footer-links {
   flex-direction: column;
   align-items: start;
+}
+
+.footer-links a:hover {
+  color: var(--brand-strong);
 }
 
 .acknowledgement-card {

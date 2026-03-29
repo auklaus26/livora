@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import { siteEmail, siteLocation, sitePhone } from '~/composables/useSiteContent'
-
 useHead({
   title: 'Make a Referral | Livora Care'
 })
@@ -38,17 +36,7 @@ const servicesRequested = [
     />
 
     <section class="section">
-      <div class="shell split-grid top-align">
-        <div class="content-card">
-          <h2>Contact details</h2>
-          <p>{{ sitePhone }}</p>
-          <p>{{ siteEmail }}</p>
-          <p>{{ siteLocation }}</p>
-          <p>
-            Our team will review the referral and respond promptly to discuss service suitability and availability.
-          </p>
-        </div>
-
+      <div class="shell">
         <form class="form-card">
           <h2>Referral Form</h2>
           <div class="form-grid">
